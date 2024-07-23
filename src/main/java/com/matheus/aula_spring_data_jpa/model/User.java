@@ -1,14 +1,11 @@
 package com.matheus.aula_spring_data_jpa.model;
 
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Column;
-import jakarta.persistence.GenerationType;
+import jakarta.persistence.*;
 
 
 @Entity
+@Table(name = "tab_user")
 public class User {
 
     @Id
